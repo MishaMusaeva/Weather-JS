@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+ background-color: #222;
+ background-image: url(https://source.unsplash.com/1600x900/?nature,seasons);
+}
+.card{
+    background-color: #000000d0;
+    padding: 4em;
+    border-radius: 90px;
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 2.2rem;
+   
+}
+#input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+
+
+}
+button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin: 0.7em;
+    border-radius: 15px;
+    font-size: 17px;
+   
+    
+}
